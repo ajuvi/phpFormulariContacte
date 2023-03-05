@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estils.css" /> 
+	<title>Contactar</title>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Contacta amb nosaltres</h1>
+    </div>
+    <div class="principal">
+        <form method="POST" action="contacte2csv.php">
+            <label for="nom">Nom:</label>
+            <input id="nom" name="nom" placeholder="Nom complert">
+            <label for="email">Email:</label>
+            <input id="email" name="email" type="email" placeholder="exemple@email.com">
+            <label for="missatge">Missatge:</label>
+            <textarea id="missatge" name="missatge" placeholder="Escriu el teu missatge"></textarea>
+            <input id="submit" name="submit" type="submit" value="Enviar">
+        </form>
+    </div>
+
+</body>
+</html>
